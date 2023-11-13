@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblab5</title>
+</head>
+<body>
+
+    <form action="code.php" method="post">
+        <fieldset>
+            <legend>Contact Form</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autofocus>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" autofocus>
+            <br><br>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+            <br><br>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" placeholder="Enter your address"></textarea>
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="genderM" value="Male">
+            <label for="genderM">Male</label>
+            <input type="radio" name="gender" id="genderF" value="Female">
+            <label for="genderF">Female</label>
+            <br><br>
+            <input type="submit" value="SAVE">
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+    
+</body>
+</html>
